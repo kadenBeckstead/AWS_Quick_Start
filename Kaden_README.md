@@ -1,7 +1,7 @@
 # Steps if Bash Shortcut:
 
 1. Navigate to the severlesss.yml file and replace the two lines with comments with the relevant values
-2. Note, both of those lines are in regards to a dynamoDB table. If you don't want to have the dynamoDB tables, delete lines 9-19 (inclusive)
+2. Note, both of those lines are in regards to a dynamoDB table. If you don't want to have the dynamoDB tables, delete lines 9-19 (inclusive) also everything after the resources: \n Resources: lines
 3. Configure Lambdas as desired
 4. Run ```sls deploy``` to deploy the code
 
